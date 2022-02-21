@@ -37,19 +37,13 @@ namespace MarsRover
                 {
                     case Enums.Directon.W:
                         return Enums.Directon.N;
-                        break;
                     case Enums.Directon.E:
                         return Enums.Directon.S;
-                        break;
                     case Enums.Directon.S:
                         return Enums.Directon.W;
-                        break;
                     case Enums.Directon.N:
-                        return Enums.Directon.E;
-                        break;
                     default:
                         return Enums.Directon.E;
-                        break;
                 }
             }
             else
@@ -58,19 +52,13 @@ namespace MarsRover
                 {
                     case Enums.Directon.W:
                         return Enums.Directon.S;
-                        break;
                     case Enums.Directon.E:
                         return Enums.Directon.N;
-                        break;
                     case Enums.Directon.S:
                         return Enums.Directon.E;
-                        break;
                     case Enums.Directon.N:
-                        return Enums.Directon.W;
-                        break;
                     default:
                         return Enums.Directon.W;
-                        break;
                 }
             }
         }
