@@ -13,7 +13,7 @@ namespace UnitTest
             string result = MarsRover.Program.ReadProcess("1 2 N","LMLMLMLMM",true);
             if (result != "1 3 N")
             {
-                throw new Exception("Hatalı");
+                throw new Exception("Error");
             }
         }
         [TestMethod]
@@ -23,7 +23,7 @@ namespace UnitTest
             string result = MarsRover.Program.ReadProcess("1 3 N", "LMLMLMLMM", true);
             if (result == "1 3 N")
             {
-                throw new Exception("Hatalı");
+                throw new Exception("Error");
             }
         }
 
@@ -34,7 +34,7 @@ namespace UnitTest
             string result = MarsRover.Program.ReadProcess("3 3 E", "MMRMMRMRRM", true);
             if (result != "5 1 E")
             {
-                throw new Exception("Hatalı");
+                throw new Exception("Error");
             }
         }
 
@@ -45,7 +45,7 @@ namespace UnitTest
             string result = MarsRover.Program.ReadProcess("1 3 E", "MMRMMRMRRM", true);
             if (result == "5 1 E")
             {
-                throw new Exception("Hatalı");
+                throw new Exception("Error");
             }
         }
     }

@@ -98,7 +98,7 @@ namespace MarsRover
         {
             if (!int.TryParse(value, out int result))
             {
-                Console.WriteLine("Hatalı Değer girdiniz lütfen baştan başlayınız.");
+                Console.WriteLine("You entered an incorrect value, please start over.");
                 Main(MainMethodArgs.ToArray());
             }
             return result;
